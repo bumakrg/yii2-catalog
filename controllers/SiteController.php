@@ -17,6 +17,10 @@ class SiteController extends Controller
     /**
      * @inheritdoc
      */
+    public function actionTest() 
+    {
+    }
+    
     public function behaviors()
     {
         return [
